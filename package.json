@@ -4,6 +4,10 @@
   "description": "Get GeoIP Lite data over HTTP",
   "main": "index.js",
   "type": "module",
+  "engines": {
+		"node": ">=22.10.0",
+		"npm": ">=10.9.0"
+	},
   "scripts": {
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
